@@ -1,0 +1,9 @@
+@article{REPO291,
+    author = "Song, Hongya and Ma, Yaoguang and Han, Yubing and Shen, Weidong and Zhang, Wenyi and Li, Yanghui and Liu, Xu and Peng, Yifan and Hao, Xiang",
+    journal = "Advanced Theory and Simulations",
+    number = "3",
+    pages = "2000299",
+    title = "{Deep-Learned Broadband Encoding Stochastic Filters for Computational Spectroscopic Instruments}",
+    volume = "4",
+    year = "2021"
+}
