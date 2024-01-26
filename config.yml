@@ -1,0 +1,25 @@
+PCSED:
+  BatchSize: 10000
+  EpochNum: 101
+  History: true
+  IsParallel: false
+  # QEC: ./data/QEC.mat
+  TFNum: 25
+  TestDataPath: ./data/ICVL_400-1000-5_100K.mat
+  TestInterval: 1
+  TestingDataSize: 10000
+  TrainDataPath: ./data/ICVL_400-1000-5_1M.mat
+  TrainingDataSize: 1000000
+  beta_range: 0.001
+  fnet_folder: ./nets/fnet/TMM_L20_R5.0
+  lr: 0.0001
+  lr_decay_gamma: 0.8
+  lr_decay_step: 100
+  params_lr_coef: 1000.0
+fnet:
+  EndWL: 1005.0
+  Resolution: 5.0
+  StartWL: 400
+  TFNum: 20
+  params_max: 400.0
+  params_min: 10.0
